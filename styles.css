@@ -76,9 +76,9 @@ a {
 
 /* "ORDER NOW" Button Styling */
 .btn-primary {
-  background-color: var(--ct-black);
+  background: linear-gradient(135deg, #d4a574 0%, #c89a5e 100%);
   color: var(--ct-white);
-  border: 2px solid var(--ct-black);
+  border: 2px solid #d4a574;
   padding: 10px 30px;
   border-radius: 0; /* Sharp edges for modern look */
   font-family: var(--font-main);
@@ -86,12 +86,15 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(212, 165, 116, 0.3);
 }
 
 .btn-primary:hover {
-  background-color: var(--ct-peach);
-  color: var(--ct-black);
-  border-color: var(--ct-peach);
+  background: linear-gradient(135deg, #c89a5e 0%, #b88a4e 100%);
+  color: var(--ct-white);
+  border-color: #c89a5e;
+  box-shadow: 0 4px 12px rgba(212, 165, 116, 0.5);
+  transform: translateY(-2px);
 }
 
 /* =========================================
